@@ -27,7 +27,7 @@ Note: This project works without the need of any api keys or registeration
 #### installation
 
 ```sh
-git clone https://github.com/SwapnilSoni1999/spotify-dl
+git clone https://github.com/pavanjadhaw/spotifydl
 cd spotify-dl
 npm install
 npm link
