@@ -1,23 +1,11 @@
 {
   "name": "spotify-dl",
   "version": "0.0.1",
-  "description": "",
+  "description": "download audio video from spotify link",
   "main": "cli.js",
   "bin": {
     "spotifydl": "cli.js"
   },
-  "scripts": {
-    "test": "xo",
-    "fix": "xo --fix",
-    "start": "./cli.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/SwapnilSoni1999/spotify-dl.git"
-  },
-  "keywords": [],
-  "author": "Swapnil Soni",
-  "license": "ISC",
   "dependencies": {
     "axios": "^0.18.0",
     "cheerio": "^1.0.0-rc.3",
@@ -26,15 +14,27 @@
     "yt-search": "^0.4.1",
     "ytdl-core": "^0.29.2"
   },
-  "xo": {
-    "space": true,
-    "prettier": true,
-    "envs": [
-      "node"
-    ]
-  },
   "devDependencies": {
     "prettier": "^1.17.1",
     "xo": "^0.24.0"
-  }
+  },
+  "scripts": {
+    "test": "xo",
+    "fix": "xo --fix",
+    "start": "./cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pavanjadhaw/spotifydl.git"
+  },
+  "keywords": [],
+  "author": "Swapnil Soni",
+  "contributors": [
+    "Pavan Jadhaw <pavanjadhaw96@gmail.com> (https://pavanjadhaw.me)"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pavanjadhaw/spotifydl/issues"
+  },
+  "homepage": "https://github.com/pavanjadhaw/spotifydl#readme"
 }
