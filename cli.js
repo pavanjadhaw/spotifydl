@@ -16,8 +16,8 @@ const cli = meow(
 	  --vid, -v  Download music video of given spotify track
 
   Examples
-      $ spotifydl https://open.spotify.com/track/5tz69p7tJuGPeMGwNTxYuV
-      $ spotifydl -v https://open.spotify.com/playlist/4hOKQuZbraPDIfaGbM3lKI
+      $ spotifydl https://open.spotify.com/track/abc
+      $ spotifydl -v https://open.spotify.com/playlist/xyz
 `,
   {
     flags: {
