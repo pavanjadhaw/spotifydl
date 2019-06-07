@@ -58,7 +58,7 @@ if (!input[0]) {
       spinner.start('Downloading...');
 
       const ext = isVideo ? 'mp4' : 'mp3';
-      const output = path.resolve(__dirname, `${title} - ${artist}.${ext}`);
+      const output = path.resolve('./', `${title} - ${artist}.${ext}`);
 
       download(youtubeLink, output, isVideo, spinner);
     }
