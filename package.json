@@ -15,6 +15,7 @@
     "ytdl-core": "^0.29.2"
   },
   "devDependencies": {
+    "@pavanjadhaw/prettier-config": "0.0.1",
     "prettier": "^1.17.1",
     "xo": "^0.24.0"
   },
